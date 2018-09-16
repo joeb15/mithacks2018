@@ -52,7 +52,7 @@ if(!empty(trim($_POST['file']))){
         </div>
         <form id="upload" <?php if(!empty($text))echo "class='display-none'"?> action="#" method="POST" enctype="multipart/form-data" class="center">
             <img src="briefly.svg" class="logo">
-            <p>Enter a URL to summarize.</p>
+            <p>Enter an Audio File to Summarize.</p>
             <input id="input-id" type="text" name="file" class="file">
         </form>
     </div>
